@@ -1,0 +1,1 @@
+export { jackpotActor } from './jackpotActor'

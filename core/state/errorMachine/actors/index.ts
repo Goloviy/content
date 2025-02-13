@@ -1,0 +1,1 @@
+export { errorActor } from './errorActor'
