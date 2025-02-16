@@ -1,0 +1,68 @@
+{
+  "componentType": "WidgetColorAnimator",
+  "enabled": true,
+  "serializableData": {
+    "targetWidgets": [
+      {
+        "fileID": 1068
+      }
+    ],
+    "animationTime": 1.4,
+    "playAutomatically": true,
+    "playReverse": false,
+    "useAnimationCurve": true,
+    "useAnimationCurveSample": false,
+    "useTimeChannel": false,
+    "timeChannelID": 0,
+    "playMode": 0,
+    "colorA": {
+      "nestedFieldType": "Color",
+      "serializableData": {
+        "c": "FFFFFF00"
+      }
+    },
+    "colorB": {
+      "nestedFieldType": "Color",
+      "serializableData": {
+        "c": "w"
+      }
+    },
+    "animationCurve": {
+      "nestedFieldType": "AnimationCurve",
+      "serializableData": {
+        "times": [
+          0,
+          0.45,
+          0.451,
+          0.97,
+          1
+        ],
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "inTangents": [
+          0,
+          0,
+          999.983093261719,
+          0,
+          -33.333366394043
+        ],
+        "outTangents": [
+          0,
+          999.983093261719,
+          0,
+          -33.333366394043,
+          0
+        ]
+      }
+    },
+    "animators": [
+    ],
+    "timeScaleID": ""
+  },
+  "fileID": 1069
+}

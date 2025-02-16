@@ -1,1 +1,0 @@
-export { IoCContainerTypes } from './types'

@@ -1,0 +1,95 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:import/recommended", "plugin:import/errors", "plugin:import/warnings", "plugin:import/typescript"],
+  "plugins": ["unused-imports", "prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "space-in-parens": true
+      }
+    ],
+    "max-len": ["error", { "code": 130 }],
+    "indent": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "always-multiline"],
+    "spaced-comment": ["error", "always"],
+    "prefer-const": 1,
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-unused-vars": 0,
+    "unused-imports/no-unused-imports": 2,
+    "unused-imports/no-unused-vars": 1,
+    "object-curly-spacing": ["error", "always"],
+    "keyword-spacing": ["error", { "before": true }],
+    "import/no-unresolved": "error",
+    "import/named": 1,
+    "import/namespace": 1,
+    "import/default": 1,
+    "import/export": 1,
+    "import/no-named-as-default": 1,
+    "import/no-named-as-default-member": 1,
+    "import/no-duplicates": 1,
+    "import/no-useless-path-segments": 1,
+    "import/order": [
+      1,
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"],
+        "pathGroups": [
+          { "pattern": "Configs/**", "group": "internal", "position": "before" },
+          { "pattern": "Core/**", "group": "internal", "position": "before" },
+          { "pattern": "Shared/**", "group": "internal", "position": "before" },
+          { "pattern": "Api/**", "group": "internal", "position": "before" },
+          { "pattern": "Constants", "group": "internal", "position": "before" },
+          { "pattern": "Utils", "group": "internal", "position": "before" },
+          { "pattern": "Assets/**", "group": "internal", "position": "before" },
+          { "pattern": "Components/**", "group": "internal", "position": "before" }
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": ["pixi.js", "pixi.js-legacy"]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["Core", "./src/core"],
+          ["Shared", "./src/shared"],
+          ["Api", "./src/api"],
+          ["Components", "./src/components"],
+          ["Games", "./src/games"],
+          ["Assets", "./src/assets"],
+          ["Types", "./src/types"],
+          ["Constants", "./src/constants"],
+          ["Utils", "./src/utils"],
+          ["Configs", "./configs"]
+        ],
+        "extensions": [".ts"]
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/shared/ui/Creators/*.{js,ts}",
+        "src/shared/ui/Drawings/*.{js,ts}",
+        "src/core/**/*.{js,ts}",
+        "src/types/*.{js,ts}"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ]
+}

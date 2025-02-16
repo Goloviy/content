@@ -1,0 +1,23 @@
+{
+  "name": "content-parser",
+  "version": "1.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi-spine": "3.0.1",
+    "pixi.js-legacy": "5.3.12",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.9",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "keywords": []
+}

@@ -1,0 +1,55 @@
+{
+    "nameParticle": "FountainCoins",
+    "componentType": "ParticleSystem",
+    "serializableData": {
+        "InitialModule": {
+            "startLifetime": 3.8,
+            "startSpeed": 1400,
+            "startSize": 0.35,
+            "startColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "gravityModifier": 1200,
+            "simulationSpeed": 1,
+            "maxParticles": 150
+        },
+        "ShapeModule": {
+            "type": "Cone",
+            "radius": 0,
+            "angle": 0.0
+        },
+        "EmissionModule": {
+            "emissionRate": 8
+        },
+        "VelocityOverLifeTimeModule": {
+            "type": "RandomBetweenTwoConstants",
+            "firstConstant": {
+                "x": 250.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "secondConstant": {
+                "x": -250.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "RotationOverLifeTimeModule": {
+            "type": "RandomBetweenTwoConstants",
+            "separateAxes": true,
+            "firstConstant": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "secondConstant": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+            }
+        }
+    }
+}

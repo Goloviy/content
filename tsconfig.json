@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["node_modules/@types", "./src/types"], // Добавьте путь к вашим типам
+    "include": ["src/**/*"],
+    "paths": {
+      "Core/*": ["src/core/*"],
+      "Shared/*": ["src/shared/*"],
+      "Api/*": ["src/api/*"],
+      "Components": ["src/components"],
+      "Games": ["games"],
+      "Assets": ["src/assets"],
+      "Types": ["src/types"],
+      "Constants": ["src/constants"],
+      "Utils/*": ["src/utils/*"],
+      "Configs/*": ["configs/*"]
+    }
+  },
+  "exclude": ["scripts"],
+  "include": ["src"]
+}

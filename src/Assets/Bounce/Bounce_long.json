@@ -1,0 +1,146 @@
+{
+  "animationName": "bounce",
+  "animatorType": "TransformAnimator",
+  "targetType": "This",
+  "animationTime": 0.6,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalScale.x",
+      "animationCurve": {
+        "times": [
+          0,
+          0.6
+        ],
+        "values": [
+          1
+        ],
+        "inTangents": [
+          0.0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalScale.y",
+      "animationCurve": {
+        "times": [
+          0,
+          0.066666672,
+          0.17333336,
+          0.28,
+          0.38666664,
+          0.49333336,
+          0.6
+        ],
+        "values": [
+          1,
+          0.85,
+          1.05,
+          0.9,
+          1.03,
+          0.95,
+          1
+        ],
+        "inTangents": [
+          -1.19999992847443,
+          0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalScale.z",
+      "animationCurve": {
+        "times": [
+          0,
+          0.6
+        ],
+        "values": [
+          1
+        ],
+        "inTangents": [
+          0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.x",
+      "animationCurve": {
+        "times": [
+          0,
+          0.6
+        ],
+        "values": [
+          0
+        ],
+        "inTangents": [
+          0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.y",
+      "animationCurve": {
+        "times": [
+          0,
+          0.066666672,
+          0.17333336,
+          0.28,
+          0.38666664,
+          0.49333336,
+          0.6
+        ],
+        "values": [
+          0,
+          15,
+          -5,
+          10,
+          -3,
+          5,
+          0
+        ],
+        "inTangents": [
+          -60,
+          0
+        ],
+        "outTangents": [
+          -180,
+          0
+        ]
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.z",
+      "animationCurve": {
+        "times": [
+          0,
+          0.6
+        ],
+        "values": [
+          0
+        ],
+        "inTangents": [
+          0
+        ],
+        "outTangents": "copy"
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {}
+}

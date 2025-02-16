@@ -1,0 +1,52 @@
+{
+  "animationAtlases": {
+    "Frame": {
+      "x": 3.0,
+      "y": 372.0,
+      "width": 775.0,
+      "height": 445.0,
+      "paddingLeft": 0.0,
+      "paddingTop": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "index": 0,
+      "rotate": false
+    },
+    "Background": {
+      "x": 3.0,
+      "y": 0.0,
+      "width": 662.0,
+      "height": 366.0,
+      "paddingLeft": 3.0,
+      "paddingTop": 6.0,
+      "paddingRight": 3.0,
+      "paddingBottom": 2.0,
+      "index": 0,
+      "rotate": false
+    },
+    "Decline_button": {
+      "x": 784.0,
+      "y": 747.0,
+      "width": 110.0,
+      "height": 70.0,
+      "paddingLeft": 0.0,
+      "paddingTop": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "index": 0,
+      "rotate": false
+    },
+    "Accept_button": {
+      "x": 900.0,
+      "y": 747.0,
+      "width": 110.0,
+      "height": 70.0,
+      "paddingLeft": 0.0,
+      "paddingTop": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "index": 0,
+      "rotate": false
+    }
+  }
+}

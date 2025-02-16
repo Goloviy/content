@@ -1,1 +1,0 @@
-export { tournamentsActor } from './tournamentsActor'

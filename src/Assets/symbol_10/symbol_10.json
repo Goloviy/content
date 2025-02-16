@@ -1,0 +1,319 @@
+{
+  "animationName": "win",
+  "animatorType": "SpriteFramesAnimator",
+  "targetType": "Parent",
+  "animationTime": 0.9,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Image",
+      "propertyName": "Sprite",
+      "animationCurve": {
+        "times": [
+          0,
+          1
+        ],
+        "values": [
+          0,
+          1
+        ],
+        "inTangents": [
+          1
+        ],
+        "outTangents": "copy"
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {
+    "S10_000": {
+      "x": 494,
+      "y": 690,
+      "width": 164,
+      "height": 133,
+      "paddingLeft": 61,
+      "paddingTop": 85,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_001": {
+      "x": 500,
+      "y": 96,
+      "width": 162,
+      "height": 137,
+      "paddingLeft": 63,
+      "paddingTop": 82,
+      "paddingRight": 75,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_002": {
+      "x": 167,
+      "y": 682,
+      "width": 159,
+      "height": 141,
+      "paddingLeft": 66,
+      "paddingTop": 78,
+      "paddingRight": 75,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_003": {
+      "y": 540,
+      "width": 158,
+      "height": 145,
+      "paddingLeft": 68,
+      "paddingTop": 73,
+      "paddingRight": 74,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S10_004": {
+      "x": 325,
+      "y": 400,
+      "width": 155,
+      "height": 150,
+      "paddingLeft": 70,
+      "paddingTop": 68,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_005": {
+      "x": 659,
+      "y": 508,
+      "width": 153,
+      "height": 154,
+      "paddingLeft": 72,
+      "paddingTop": 64,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_006": {
+      "x": 660,
+      "y": 664,
+      "width": 149,
+      "height": 159,
+      "paddingLeft": 75,
+      "paddingTop": 61,
+      "paddingRight": 76,
+      "paddingBottom": 80,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_007": {
+      "y": 384,
+      "width": 154,
+      "height": 154,
+      "paddingLeft": 71,
+      "paddingTop": 65,
+      "paddingRight": 75,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S10_008": {
+      "x": 664,
+      "y": 84,
+      "width": 156,
+      "height": 149,
+      "paddingLeft": 69,
+      "paddingTop": 72,
+      "paddingRight": 75,
+      "paddingBottom": 79,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_009": {
+      "x": 494,
+      "y": 408,
+      "width": 159,
+      "height": 144,
+      "paddingLeft": 66,
+      "paddingTop": 79,
+      "paddingRight": 75,
+      "paddingBottom": 77,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_010": {
+      "x": 482,
+      "y": 266,
+      "width": 160,
+      "height": 140,
+      "paddingLeft": 64,
+      "paddingTop": 83,
+      "paddingRight": 76,
+      "paddingBottom": 77,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_011": {
+      "x": 644,
+      "y": 235,
+      "width": 161,
+      "height": 137,
+      "paddingLeft": 62,
+      "paddingTop": 84,
+      "paddingRight": 77,
+      "paddingBottom": 79,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_012": {
+      "x": 160,
+      "y": 413,
+      "width": 163,
+      "height": 133,
+      "paddingLeft": 59,
+      "paddingTop": 86,
+      "paddingRight": 78,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_013": {
+      "x": 655,
+      "y": 374,
+      "width": 164,
+      "height": 132,
+      "paddingLeft": 58,
+      "paddingTop": 87,
+      "paddingRight": 78,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_014": {
+      "y": 2,
+      "width": 164,
+      "height": 132,
+      "paddingLeft": 59,
+      "paddingTop": 86,
+      "paddingRight": 77,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S10_015": {
+      "x": 160,
+      "y": 548,
+      "width": 163,
+      "height": 132,
+      "paddingLeft": 60,
+      "paddingTop": 86,
+      "paddingRight": 77,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_016": {
+      "x": 494,
+      "y": 554,
+      "width": 163,
+      "height": 134,
+      "paddingLeft": 61,
+      "paddingTop": 84,
+      "paddingRight": 76,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_017": {
+      "x": 328,
+      "y": 688,
+      "width": 164,
+      "height": 135,
+      "paddingLeft": 60,
+      "paddingTop": 83,
+      "paddingRight": 76,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_018": {
+      "y": 687,
+      "width": 165,
+      "height": 136,
+      "paddingLeft": 60,
+      "paddingTop": 82,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S10_019": {
+      "x": 167,
+      "y": 134,
+      "width": 165,
+      "height": 137,
+      "paddingLeft": 60,
+      "paddingTop": 82,
+      "paddingRight": 75,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_020": {
+      "x": 156,
+      "y": 273,
+      "width": 166,
+      "height": 138,
+      "paddingLeft": 59,
+      "paddingTop": 81,
+      "paddingRight": 75,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_021": {
+      "x": 334,
+      "y": 127,
+      "width": 164,
+      "height": 137,
+      "paddingLeft": 60,
+      "paddingTop": 82,
+      "paddingRight": 76,
+      "paddingBottom": 81,
+      "index": -1,
+      "rotate": false
+    },
+    "S10_022": {
+      "y": 136,
+      "width": 165,
+      "height": 135,
+      "paddingLeft": 60,
+      "paddingTop": 83,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S10_023": {
+      "x": 328,
+      "y": 552,
+      "width": 164,
+      "height": 134,
+      "paddingLeft": 61,
+      "paddingTop": 84,
+      "paddingRight": 75,
+      "paddingBottom": 82,
+      "index": -1,
+      "rotate": false
+    }
+  }
+}

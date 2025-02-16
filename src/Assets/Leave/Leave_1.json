@@ -1,0 +1,77 @@
+{
+  "animationName": "Leave",
+  "animatorType": "TransformAnimator",
+  "targetType": "Parent",
+  "animationTime": 0.6,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.x",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.504,
+          0.6
+        ],
+        "values": [
+          0.0
+        ],
+        "inTangents": [
+          0.0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.y",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.504,
+          0.6
+        ],
+        "values": [
+          0.0,
+          551.5,
+          580
+        ],
+        "inTangents": [
+          0,
+          -2096.76391601563,
+          -2279.99975585938
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.z",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.504,
+          0.6
+        ],
+        "values": [
+          0
+        ],
+        "inTangents": [
+          0
+        ],
+        "outTangents": "copy"
+      }
+    }
+  ],
+  "customEvents": [
+    {
+      "time": 250,
+      "eventType": "CallFunction"
+    }
+  ],
+  "animationAtlases": {}
+}

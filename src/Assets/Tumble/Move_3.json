@@ -1,0 +1,96 @@
+{
+  "animationName": "Tumble_3",
+  "animatorType": "TransformAnimator",
+  "targetType": "Parent",
+  "animationTime": 0.23333,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.x",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.2,
+          0.23333
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "inTangents": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "outTangents": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.y",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.2,
+          0.23333
+        ],
+        "values": [
+          0,
+          331.0,
+          321.0
+        ],
+        "inTangents": [
+          -936.0,
+          -408.0,
+          119.999985
+        ],
+        "outTangents": [
+          -936.0,
+          -408.0,
+          119.999985
+        ]
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.z",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.2,
+          0.23333
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "inTangents": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "outTangents": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "customEvents": [{
+    "functionName": "bounce",
+    "time": 165.3,
+    "eventType": "PlayAnimation"
+  }],
+  "animationAtlases": {}
+}

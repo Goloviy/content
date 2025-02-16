@@ -1,0 +1,1075 @@
+{
+  "name": "MoneyMaker",
+  "activeSelf": false,
+  "layer": 25,
+  "components": [
+    {
+      "componentType": "Transform",
+      "enabled": true,
+      "serializableData": {
+        "parent": {
+          "fileID": 7393
+        },
+        "children": [],
+        "position": "0,0,0",
+        "scale": "1,1,1",
+        "rotation": "0,0,0"
+      },
+      "fileID": 7401
+    },
+    {
+      "componentType": "ParticleSystem",
+      "enabled": true,
+      "serializableData": {
+        "ParticleSystemComponent": {
+          "m_ObjectHideFlags": "0",
+          "m_PrefabParentObject": "PPtr<EditorExtension>",
+          "m_PrefabParentObject": {
+            "m_PathID": "0"
+          },
+          "m_PrefabInternal": "PPtr<Prefab>",
+          "m_PrefabInternal": {
+            "m_PathID": "0"
+          },
+          "m_GameObject": "PPtr<GameObject>",
+          "m_GameObject": {
+            "m_PathID": "0"
+          },
+          "lengthInSec": "5",
+          "startDelay": "MinMaxCurve",
+          "startDelay": {
+            "scalar": "0",
+            "maxCurve": "UnityEngine.AnimationCurve",
+            "maxCurve": {
+              "m_Curve": "vector",
+              "m_Curve": {
+                "Array": "Array",
+                "Array": {
+                  "size": "2",
+                  "data[0]": "Keyframe",
+                  "data[0]": {
+                    "time": "0",
+                    "value": "1",
+                    "inSlope": "0",
+                    "outSlope": "0",
+                    "tangentMode": "0"
+                  },
+                  "data[1]": "Keyframe",
+                  "data[1]": {
+                    "time": "1",
+                    "value": "1",
+                    "inSlope": "0",
+                    "outSlope": "0",
+                    "tangentMode": "0"
+                  }
+                }
+              },
+              "m_PreInfinity": "2",
+              "m_PostInfinity": "2",
+              "m_RotationOrder": "4"
+            },
+            "minCurve": "UnityEngine.AnimationCurve",
+            "minCurve": {
+              "m_Curve": "vector",
+              "m_Curve": {
+                "Array": "Array",
+                "Array": {
+                  "size": "2",
+                  "data[0]": "Keyframe",
+                  "data[0]": {
+                    "time": "0",
+                    "value": "0",
+                    "inSlope": "0",
+                    "outSlope": "0",
+                    "tangentMode": "0"
+                  },
+                  "data[1]": "Keyframe",
+                  "data[1]": {
+                    "time": "1",
+                    "value": "0",
+                    "inSlope": "0",
+                    "outSlope": "0",
+                    "tangentMode": "0"
+                  }
+                }
+              },
+              "m_PreInfinity": "2",
+              "m_PostInfinity": "2",
+              "m_RotationOrder": "4"
+            },
+            "minMaxState": "0"
+          },
+          "speed": "1",
+          "randomSeed": "0",
+          "looping": "True",
+          "prewarm": "False",
+          "playOnAwake": "True",
+          "moveWithTransform": "False",
+          "scalingMode": "2",
+          "InitialModule": "InitialModule",
+          "InitialModule": {
+            "enabled": "True",
+            "startLifetime": "MinMaxCurve",
+            "startLifetime": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "startSpeed": "MinMaxCurve",
+            "startSpeed": {
+              "scalar": "3.7",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "startColor": "MinMaxGradient",
+            "startColor": {
+              "maxGradient": "GradientNEW",
+              "maxGradient": {
+                "key0": "RGBA(1.000, 1.000, 1.000, 1.000)",
+                "key0": {
+                  "rgba": "-1"
+                },
+                "key1": "RGBA(1.000, 1.000, 1.000, 1.000)",
+                "key1": {
+                  "rgba": "-1"
+                },
+                "key2": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key2": {
+                  "rgba": "0"
+                },
+                "key3": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key3": {
+                  "rgba": "0"
+                },
+                "key4": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key4": {
+                  "rgba": "0"
+                },
+                "key5": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key5": {
+                  "rgba": "0"
+                },
+                "key6": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key6": {
+                  "rgba": "0"
+                },
+                "key7": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key7": {
+                  "rgba": "0"
+                },
+                "ctime0": "0",
+                "ctime1": "65535",
+                "ctime2": "0",
+                "ctime3": "0",
+                "ctime4": "0",
+                "ctime5": "0",
+                "ctime6": "0",
+                "ctime7": "0",
+                "atime0": "0",
+                "atime1": "65535",
+                "atime2": "0",
+                "atime3": "0",
+                "atime4": "0",
+                "atime5": "0",
+                "atime6": "0",
+                "atime7": "0",
+                "m_NumColorKeys": "2",
+                "m_NumAlphaKeys": "2"
+              },
+              "minGradient": "GradientNEW",
+              "minGradient": {
+                "key0": "RGBA(1.000, 1.000, 1.000, 1.000)",
+                "key0": {
+                  "rgba": "-1"
+                },
+                "key1": "RGBA(1.000, 1.000, 1.000, 1.000)",
+                "key1": {
+                  "rgba": "-1"
+                },
+                "key2": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key2": {
+                  "rgba": "0"
+                },
+                "key3": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key3": {
+                  "rgba": "0"
+                },
+                "key4": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key4": {
+                  "rgba": "0"
+                },
+                "key5": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key5": {
+                  "rgba": "0"
+                },
+                "key6": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key6": {
+                  "rgba": "0"
+                },
+                "key7": "RGBA(0.000, 0.000, 0.000, 0.000)",
+                "key7": {
+                  "rgba": "0"
+                },
+                "ctime0": "0",
+                "ctime1": "65535",
+                "ctime2": "0",
+                "ctime3": "0",
+                "ctime4": "0",
+                "ctime5": "0",
+                "ctime6": "0",
+                "ctime7": "0",
+                "atime0": "0",
+                "atime1": "65535",
+                "atime2": "0",
+                "atime3": "0",
+                "atime4": "0",
+                "atime5": "0",
+                "atime6": "0",
+                "atime7": "0",
+                "m_NumColorKeys": "2",
+                "m_NumAlphaKeys": "2"
+              },
+              "minColor": "RGBA(1.000, 1.000, 1.000, 1.000)",
+              "minColor": {
+                "rgba": "-1"
+              },
+              "maxColor": "RGBA(1.000, 1.000, 1.000, 1.000)",
+              "maxColor": {
+                "rgba": "-1"
+              },
+              "minMaxState": "0"
+            },
+            "startSize": "MinMaxCurve",
+            "startSize": {
+              "scalar": "0.3",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "startRotationX": "MinMaxCurve",
+            "startRotationX": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "startRotationY": "MinMaxCurve",
+            "startRotationY": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "startRotation": "MinMaxCurve",
+            "startRotation": {
+              "scalar": "0.5235988",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "-1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "3"
+            },
+            "randomizeRotationDirection": "0",
+            "gravityModifier": "1",
+            "maxNumParticles": "18",
+            "rotation3D": "False"
+          },
+          "ShapeModule": "ShapeModule",
+          "ShapeModule": {
+            "enabled": "True",
+            "type": "4",
+            "radius": "126.47",
+            "angle": "25.17",
+            "length": "5",
+            "boxX": "1200",
+            "boxY": "50",
+            "boxZ": "1",
+            "arc": "360",
+            "placementMode": "1",
+            "m_Mesh": "PPtr<Mesh>",
+            "m_Mesh": {
+              "m_PathID": "0"
+            },
+            "m_MeshRenderer": "PPtr<MeshRenderer>",
+            "m_MeshRenderer": {
+              "m_PathID": "0"
+            },
+            "m_SkinnedMeshRenderer": "PPtr<SkinnedMeshRenderer>",
+            "m_SkinnedMeshRenderer": {
+              "m_PathID": "0"
+            },
+            "m_MeshMaterialIndex": "0",
+            "m_MeshNormalOffset": "0",
+            "m_UseMeshMaterialIndex": "False",
+            "m_UseMeshColors": "True",
+            "randomDirection": "False"
+          },
+          "EmissionModule": "EmissionModule",
+          "EmissionModule": {
+            "enabled": "False",
+            "m_Type": "0",
+            "rate": "MinMaxCurve",
+            "rate": {
+              "scalar": "9",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "cnt0": "30",
+            "cnt1": "30",
+            "cnt2": "30",
+            "cnt3": "30",
+            "cntmax0": "30",
+            "cntmax1": "30",
+            "cntmax2": "30",
+            "cntmax3": "30",
+            "time0": "0",
+            "time1": "0",
+            "time2": "0",
+            "time3": "0",
+            "m_BurstCount": "0"
+          },
+          "SizeModule": "SizeModule",
+          "RotationModule": "RotationModule",
+          "RotationModule": {
+            "enabled": "True",
+            "x": "MinMaxCurve",
+            "x": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "y": "MinMaxCurve",
+            "y": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "curve": "MinMaxCurve",
+            "curve": {
+              "scalar": "1.570796",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "-1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "3"
+            },
+            "separateAxes": "False"
+          },
+          "ColorModule": "ColorModule",
+          "UVModule": "UVModule",
+          "VelocityModule": "VelocityModule",
+          "VelocityModule": {
+            "enabled": "True",
+            "x": "MinMaxCurve",
+            "x": {
+              "scalar": "0",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0.1206031",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "y": "MinMaxCurve",
+            "y": {
+              "scalar": "0",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "2",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "-0.5445023",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    },
+                    "data[1]": "Keyframe",
+                    "data[1]": {
+                      "time": "1",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "z": "MinMaxCurve",
+            "z": {
+              "scalar": "1",
+              "maxCurve": "UnityEngine.AnimationCurve",
+              "maxCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "1",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minCurve": "UnityEngine.AnimationCurve",
+              "minCurve": {
+                "m_Curve": "vector",
+                "m_Curve": {
+                  "Array": "Array",
+                  "Array": {
+                    "size": "1",
+                    "data[0]": "Keyframe",
+                    "data[0]": {
+                      "time": "0",
+                      "value": "0",
+                      "inSlope": "0",
+                      "outSlope": "0",
+                      "tangentMode": "0"
+                    }
+                  }
+                },
+                "m_PreInfinity": "2",
+                "m_PostInfinity": "2",
+                "m_RotationOrder": "4"
+              },
+              "minMaxState": "0"
+            },
+            "inWorldSpace": "False"
+          },
+          "InheritVelocityModule": "InheritVelocityModule",
+          "ForceModule": "ForceModule",
+          "ExternalForcesModule": "ExternalForcesModule",
+          "ClampVelocityModule": "ClampVelocityModule",
+          "SizeBySpeedModule": "SizeBySpeedModule",
+          "RotationBySpeedModule": "RotationBySpeedModule",
+          "ColorBySpeedModule": "ColorBySpeedModule",
+          "CollisionModule": "CollisionModule",
+          "SubModule": "SubModule"
+        },
+        "textureContent": {
+          "fileID": 2800000,
+          "guid": "13b01fd362f3d5b4c898a2fbbe029b15"
+        },
+        "blendMode": 0
+      },
+      "fileID": 7403
+    },
+    {
+      "componentType": "AnimatedParticleFrames",
+      "enabled": true,
+      "serializableData": {
+        "atlas": {
+          "fileID": 7398,
+          "guid": "7b1af9662ec3be347aef3f625ca0c388"
+        },
+        "FPS": 24
+      },
+      "fileID": 7404
+    }
+  ],
+  "fileID": 7405
+}

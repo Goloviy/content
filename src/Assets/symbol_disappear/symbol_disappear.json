@@ -1,0 +1,185 @@
+{
+  "animationName": "win",
+  "animatorType": "SpriteFramesAnimator",
+  "targetType": "Parent",
+  "animationTime": 0.8,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "Image",
+      "animationCurve": {
+        "times": [
+          0,
+          0.5152283,
+          0.8
+        ],
+        "values": [
+          0,
+          0.7317678,
+          1
+        ],
+        "inTangents": [
+          0.89618444442749,
+          1.17465913295746,
+          1.45169496536255
+        ],
+        "outTangents": [
+          0.89618444442749,
+          1.17465913295746,
+          1.50443124771118
+        ]
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {
+    "Symbol_dissapear_start_000": {
+      "x": 698,
+      "y": 146,
+      "width": 120,
+      "height": 120,
+      "paddingLeft": 137,
+      "paddingTop": 158,
+      "paddingRight": 143,
+      "paddingBottom": 272
+    },
+    "Symbol_dissapear_start_001": {
+      "y": 694,
+      "width": 130,
+      "height": 133,
+      "paddingLeft": 133,
+      "paddingTop": 153,
+      "paddingRight": 137,
+      "paddingBottom": 264
+    },
+    "Symbol_dissapear_start_002": {
+      "y": 274,
+      "width": 142,
+      "height": 158,
+      "paddingLeft": 129,
+      "paddingTop": 146,
+      "paddingRight": 129,
+      "paddingBottom": 246
+    },
+    "Symbol_dissapear_start_003": {
+      "x": 367,
+      "y": 259,
+      "width": 151,
+      "height": 173,
+      "paddingLeft": 124,
+      "paddingTop": 142,
+      "paddingRight": 125,
+      "paddingBottom": 235
+    },
+    "Symbol_dissapear_start_004": {
+      "x": 535,
+      "y": 64,
+      "width": 161,
+      "height": 202,
+      "paddingLeft": 120,
+      "paddingTop": 136,
+      "paddingRight": 119,
+      "paddingBottom": 212
+    },
+    "Symbol_dissapear_start_005": {
+      "x": 367,
+      "y": 46,
+      "width": 166,
+      "height": 211,
+      "paddingLeft": 116,
+      "paddingTop": 138,
+      "paddingRight": 118,
+      "paddingBottom": 201
+    },
+    "Symbol_dissapear_start_006": {
+      "y": 44,
+      "width": 170,
+      "height": 228,
+      "paddingLeft": 112,
+      "paddingTop": 133,
+      "paddingRight": 118,
+      "paddingBottom": 189
+    },
+    "Symbol_dissapear_start_007": {
+      "y": 434,
+      "width": 179,
+      "height": 258,
+      "paddingLeft": 108,
+      "paddingTop": 128,
+      "paddingRight": 113,
+      "paddingBottom": 164
+    },
+    "Symbol_dissapear_start_008": {
+      "x": 181,
+      "y": 434,
+      "width": 186,
+      "height": 279,
+      "paddingLeft": 104,
+      "paddingTop": 121,
+      "paddingRight": 110,
+      "paddingBottom": 150
+    },
+    "Symbol_dissapear_start_009": {
+      "x": 172,
+      "y": 2,
+      "width": 193,
+      "height": 309,
+      "paddingLeft": 100,
+      "paddingTop": 121,
+      "paddingRight": 107,
+      "paddingBottom": 120
+    },
+    "Symbol_dissapear_start_010": {
+      "x": 369,
+      "y": 480,
+      "width": 201,
+      "height": 347,
+      "paddingLeft": 96,
+      "paddingTop": 100,
+      "paddingRight": 103,
+      "paddingBottom": 103
+    },
+    "Symbol_dissapear_start_011": {
+      "x": 520,
+      "y": 268,
+      "width": 209,
+      "height": 210,
+      "paddingLeft": 92,
+      "paddingTop": 113,
+      "paddingRight": 99,
+      "paddingBottom": 227
+    },
+    "Symbol_dissapear_start_012": {
+      "x": 572,
+      "y": 721,
+      "width": 139,
+      "height": 106,
+      "paddingLeft": 107,
+      "paddingTop": 187,
+      "paddingRight": 154,
+      "paddingBottom": 257
+    },
+    "Symbol_dissapear_start_013": {
+      "x": 132,
+      "y": 715,
+      "width": 143,
+      "height": 112,
+      "paddingLeft": 108,
+      "paddingTop": 186,
+      "paddingRight": 149,
+      "paddingBottom": 252
+    },
+    "Symbol_dissapear_start_014": {
+      "x": 144,
+      "y": 313,
+      "width": 154,
+      "height": 119,
+      "paddingLeft": 102,
+      "paddingTop": 187,
+      "paddingRight": 144,
+      "paddingBottom": 244
+    }
+  }
+}

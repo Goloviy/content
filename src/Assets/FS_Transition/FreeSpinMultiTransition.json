@@ -1,0 +1,255 @@
+{
+  "structure": [
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": -100,
+      "posY": 162,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 15,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 117,
+      "posY": 144,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 0,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 140,
+      "posY": 415,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": -14,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 118,
+      "posY": 624,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": -11,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 451,
+      "posY": 204,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 93,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 496,
+      "posY": 605,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 68,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 913.3,
+      "posY": 41.3,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 185.9,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 846,
+      "posY": 321,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 15.131,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 902,
+      "posY": 613,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 12.272,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 1363,
+      "posY": 197,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 0,
+      "defaultAfterAnim": true,
+      "childs": []
+    },
+    {
+      "objectName": "FreeSpin",
+      "startSpriteIndex": 0,
+      "startAlpha": 1,
+      "posX": 1168.5,
+      "posY": 556,
+      "pivotX": 0,
+      "pivotY": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "rot": 47,
+      "defaultAfterAnim": true,
+      "childs": []
+    }
+  ],
+  "animations": [
+    {
+      "animationName": "s_transition",
+      "animationTime": 1.2,
+      "subAnims": [
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            0
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            1
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            2
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            3
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            4
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            5
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            6
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            7
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            8
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            9
+          ],
+          "startTime": 0
+        },
+        {
+          "animationName": "s_transition",
+          "animationTime": 1.2,
+          "path": [
+            10
+          ],
+          "startTime": 0
+        }
+      ],
+      "customEvents": []
+    }
+  ]
+}

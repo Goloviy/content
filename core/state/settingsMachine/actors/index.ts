@@ -1,1 +1,0 @@
-export { settingsActor } from './settingsActor'

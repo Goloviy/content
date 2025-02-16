@@ -1,0 +1,179 @@
+{
+  "animationName": "win",
+  "animatorType": "SpriteFramesAnimator",
+  "targetType": "This",
+  "animationTime": 0.7,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Image",
+      "propertyName": "Sprite",
+      "animationCurve": {
+        "times": [
+          0,
+          0.7
+        ],
+        "values": [
+          0,
+          1
+        ],
+        "inTangents": [
+          0,
+          1
+        ],
+        "outTangents": [
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {
+    "bomb_fuse_00": {
+      "x": 1066,
+      "y": 131,
+      "width": 101,
+      "height": 91,
+      "paddingTop": 28,
+      "paddingRight": 30,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_01": {
+      "x": 1174,
+      "y": 947,
+      "width": 119,
+      "height": 100,
+      "paddingTop": 17,
+      "paddingRight": 12,
+      "paddingBottom": 2,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0
+    },
+    "bomb_fuse_02": {
+      "x": 1066,
+      "y": 27,
+      "width": 131,
+      "height": 102,
+      "paddingTop": 16,
+      "paddingBottom": 1,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    "bomb_fuse_03": {
+      "x": 1178,
+      "y": 1108,
+      "width": 131,
+      "height": 111,
+      "paddingTop": 8,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_04": {
+      "x": 1199,
+      "y": 118,
+      "width": 131,
+      "height": 104,
+      "paddingTop": 15,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_05": {
+      "x": 1199,
+      "y": 25,
+      "width": 131,
+      "height": 91,
+      "paddingTop": 28,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_06": {
+      "x": 272,
+      "y": 118,
+      "width": 129,
+      "height": 91,
+      "paddingTop": 28,
+      "paddingRight": 2,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_07": {
+      "x": 1167,
+      "y": 539,
+      "width": 126,
+      "height": 95,
+      "paddingTop": 24,
+      "paddingRight": 5,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_08": {
+      "x": 1167,
+      "y": 636,
+      "width": 121,
+      "height": 116,
+      "paddingTop": 3,
+      "paddingRight": 10,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_09": {
+      "x": 1174,
+      "y": 827,
+      "width": 131,
+      "height": 118,
+      "paddingBottom": 1,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "paddingRight": 0
+    },
+    "bomb_fuse_10": {
+      "x": 1178,
+      "y": 1221,
+      "width": 101,
+      "height": 119,
+      "paddingRight": 30,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "bomb_fuse_11": {
+      "y": 26,
+      "width": 93,
+      "height": 90,
+      "paddingTop": 3,
+      "paddingRight": 28,
+      "paddingBottom": 8,
+      "index": -1,
+      "rotate": false,
+      "x": 0,
+      "paddingLeft": 0
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "animationName": "FL1",
+  "animatorType": "TransformAnimator",
+  "targetType": "Parent",
+  "animationTime": 0.4,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.x",
+      "animationCurve": {
+        "times": [
+          0,
+          0.336003363,
+          0.4
+        ],
+        "values": [
+          0.0
+        ],
+        "inTangents": [
+          0.0
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.y",
+      "animationCurve": {
+        "times": [
+          0,
+          0.336003363,
+          0.4
+        ],
+        "values": [
+          -428.0,
+          172.0,
+          153.5
+        ],
+        "inTangents": [
+          -206.400009,
+          0.0,
+          191.009338
+        ],
+        "outTangents": "copy"
+      }
+    },
+    {
+      "path": "Normal",
+      "type": "Transform",
+      "propertyName": "m_LocalPosition.z",
+      "animationCurve": {
+        "times": [
+          0.0,
+          0.336003363,
+          0.4
+        ],
+        "values": [
+          0
+        ],
+        "inTangents": [
+          0
+        ],
+        "outTangents": "copy"
+      }
+    }
+  ],
+  "customEvents": [{
+    "functionName": "bounce",
+    "time": 283.3,
+    "eventType": "PlayAnimation"
+  }],
+  "animationAtlases": {}
+}

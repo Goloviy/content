@@ -1,0 +1,93 @@
+{
+  "animationName": "win",
+  "animatorType": "SpriteFramesAnimator",
+  "targetType": "This",
+  "animationTime": 0.1,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Image",
+      "propertyName": "Sprite",
+      "animationCurve": {
+        "times": [
+          0,
+          0.1
+        ],
+        "values": [
+          1,
+          0
+        ],
+        "inTangents": [
+          10000
+        ],
+        "outTangents": [
+          0
+        ]
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {
+    "bomb_dust": {
+      "x": 245,
+      "y": 2,
+      "width": 276,
+      "height": 276,
+      "index": -1,
+      "rotate": false,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0
+    },
+    "S12_multiplier_000": {
+      "x": 278,
+      "y": 350,
+      "width": 221,
+      "height": 224,
+      "paddingLeft": 131,
+      "paddingTop": 138,
+      "paddingRight": 148,
+      "paddingBottom": 138,
+      "index": -1,
+      "rotate": false
+    },
+    "S12_static_large": {
+      "y": 280,
+      "width": 276,
+      "height": 294,
+      "index": -1,
+      "rotate": false,
+      "x": 0,
+      "paddingLeft": 0,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0
+    },
+    "S12_static_medium": {
+      "y": 25,
+      "width": 243,
+      "height": 253,
+      "paddingLeft": 19,
+      "paddingTop": 24,
+      "paddingRight": 14,
+      "paddingBottom": 17,
+      "index": -1,
+      "rotate": false,
+      "x": 0
+    },
+    "S12_static_small": {
+      "x": 501,
+      "y": 386,
+      "width": 181,
+      "height": 188,
+      "paddingLeft": 52,
+      "paddingTop": 59,
+      "paddingRight": 43,
+      "paddingBottom": 47,
+      "index": -1,
+      "rotate": false
+    }
+  }
+}

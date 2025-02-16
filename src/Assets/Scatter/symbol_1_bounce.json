@@ -1,0 +1,325 @@
+{
+  "animationName": "bounce",
+  "animatorType": "SpriteFramesAnimator",
+  "targetType": "This",
+  "animationTime": 0.5,
+  "scaleX": 0.75,
+  "scaleY": 0.75,
+  "startDelay": 0.0,
+  "curvesData": [
+    {
+      "path": "Normal",
+      "type": "Image",
+      "propertyName": "Sprite",
+      "animationCurve": {
+        "times": [
+          0.0,
+          1.0
+        ],
+        "values": [
+          0.0,
+          1.0
+        ],
+        "inTangents": [
+          1.0,
+          1.0
+        ],
+        "outTangents": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "customEvents": [],
+  "animationAtlases": {
+    "scatter-landing_00": {
+      "x": 1466.0,
+      "y": 135.0,
+      "width": 208.0,
+      "height": 195.0,
+      "paddingLeft": 57.0,
+      "paddingTop": 84.0,
+      "paddingRight": 85.0,
+      "paddingBottom": 71.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_01": {
+      "x": 1267.0,
+      "y": 739.0,
+      "width": 255.0,
+      "height": 266.0,
+      "paddingLeft": 47.0,
+      "paddingTop": 44.0,
+      "paddingRight": 48.0,
+      "paddingBottom": 40.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_02": {
+      "x": 1267.0,
+      "y": 1009.0,
+      "width": 261.0,
+      "height": 275.0,
+      "paddingLeft": 45.0,
+      "paddingTop": 40.0,
+      "paddingRight": 44.0,
+      "paddingBottom": 35.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_03": {
+      "x": 2.0,
+      "y": 3.0,
+      "width": 266.0,
+      "height": 279.0,
+      "paddingLeft": 42.0,
+      "paddingTop": 40.0,
+      "paddingRight": 42.0,
+      "paddingBottom": 31.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_04": {
+      "x": 310.0,
+      "y": 2.0,
+      "width": 271.0,
+      "height": 284.0,
+      "paddingLeft": 40.0,
+      "paddingTop": 39.0,
+      "paddingRight": 39.0,
+      "paddingBottom": 27.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_05": {
+      "x": 613.0,
+      "y": 2.0,
+      "width": 275.0,
+      "height": 289.0,
+      "paddingLeft": 38.0,
+      "paddingTop": 37.0,
+      "paddingRight": 37.0,
+      "paddingBottom": 24.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_06": {
+      "x": 962.0,
+      "y": 66.0,
+      "width": 280.0,
+      "height": 294.0,
+      "paddingLeft": 35.0,
+      "paddingTop": 34.0,
+      "paddingRight": 35.0,
+      "paddingBottom": 22.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_07": {
+      "x": 965.0,
+      "y": 364.0,
+      "width": 285.0,
+      "height": 299.0,
+      "paddingLeft": 33.0,
+      "paddingTop": 31.0,
+      "paddingRight": 32.0,
+      "paddingBottom": 20.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_08": {
+      "x": 969.0,
+      "y": 667.0,
+      "width": 289.0,
+      "height": 304.0,
+      "paddingLeft": 31.0,
+      "paddingTop": 27.0,
+      "paddingRight": 30.0,
+      "paddingBottom": 19.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_09": {
+      "x": 969.0,
+      "y": 975.0,
+      "width": 294.0,
+      "height": 309.0,
+      "paddingLeft": 28.0,
+      "paddingTop": 23.0,
+      "paddingRight": 28.0,
+      "paddingBottom": 18.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_10": {
+      "x": 310.0,
+      "y": 290.0,
+      "width": 299.0,
+      "height": 314.0,
+      "paddingLeft": 26.0,
+      "paddingTop": 20.0,
+      "paddingRight": 25.0,
+      "paddingBottom": 16.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_11": {
+      "x": 2.0,
+      "y": 286.0,
+      "width": 304.0,
+      "height": 319.0,
+      "paddingLeft": 23.0,
+      "paddingTop": 16.0,
+      "paddingRight": 23.0,
+      "paddingBottom": 15.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_12": {
+      "x": 650.0,
+      "y": 295.0,
+      "width": 308.0,
+      "height": 324.0,
+      "paddingLeft": 21.0,
+      "paddingTop": 13.0,
+      "paddingRight": 21.0,
+      "paddingBottom": 13.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_13": {
+      "x": 652.0,
+      "y": 955.0,
+      "width": 313.0,
+      "height": 329.0,
+      "paddingLeft": 19.0,
+      "paddingTop": 11.0,
+      "paddingRight": 18.0,
+      "paddingBottom": 10.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_14": {
+      "x": 2.0,
+      "y": 609.0,
+      "width": 318.0,
+      "height": 333.0,
+      "paddingLeft": 16.0,
+      "paddingTop": 9.0,
+      "paddingRight": 16.0,
+      "paddingBottom": 8.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_15": {
+      "x": 2.0,
+      "y": 946.0,
+      "width": 322.0,
+      "height": 338.0,
+      "paddingLeft": 14.0,
+      "paddingTop": 6.0,
+      "paddingRight": 14.0,
+      "paddingBottom": 6.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_16": {
+      "x": 328.0,
+      "y": 608.0,
+      "width": 318.0,
+      "height": 335.0,
+      "paddingLeft": 17.0,
+      "paddingTop": 7.0,
+      "paddingRight": 15.0,
+      "paddingBottom": 8.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_17": {
+      "x": 328.0,
+      "y": 947.0,
+      "width": 320.0,
+      "height": 337.0,
+      "paddingLeft": 16.0,
+      "paddingTop": 6.0,
+      "paddingRight": 14.0,
+      "paddingBottom": 7.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_18": {
+      "x": 652.0,
+      "y": 623.0,
+      "width": 309.0,
+      "height": 328.0,
+      "paddingLeft": 22.0,
+      "paddingTop": 10.0,
+      "paddingRight": 19.0,
+      "paddingBottom": 12.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_19": {
+      "x": 1262.0,
+      "y": 523.0,
+      "width": 208.0,
+      "height": 212.0,
+      "paddingLeft": 57.0,
+      "paddingTop": 67.0,
+      "paddingRight": 85.0,
+      "paddingBottom": 71.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_20": {
+      "x": 1474.0,
+      "y": 533.0,
+      "width": 208.0,
+      "height": 202.0,
+      "paddingLeft": 57.0,
+      "paddingTop": 77.0,
+      "paddingRight": 85.0,
+      "paddingBottom": 71.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_21": {
+      "x": 1474.0,
+      "y": 334.0,
+      "width": 209.0,
+      "height": 195.0,
+      "paddingLeft": 57.0,
+      "paddingTop": 84.0,
+      "paddingRight": 84.0,
+      "paddingBottom": 71.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_22": {
+      "x": 1254.0,
+      "y": 324.0,
+      "width": 208.0,
+      "height": 195.0,
+      "paddingLeft": 57.0,
+      "paddingTop": 84.0,
+      "paddingRight": 85.0,
+      "paddingBottom": 71.0,
+      "index": 0,
+      "rotate": false
+    },
+    "scatter-landing_23": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 1.0,
+      "paddingLeft": 0.0,
+      "paddingTop": 0.0,
+      "paddingRight": 0.0,
+      "paddingBottom": 0.0,
+      "index": 0,
+      "rotate": false
+    }
+  }
+}

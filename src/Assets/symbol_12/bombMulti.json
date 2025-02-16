@@ -1,0 +1,77 @@
+{
+    "structure": [
+        {
+            "objectName": "SYMBOL_12_TEXTURE_VARIANTS",
+            "startSpriteIndex": 3,
+            "startAlpha": 1,
+            "posX": 0,
+            "posY": 0,
+            "pivotX": 10,
+            "pivotY": 5,
+            "scaleX": 0.71,
+            "scaleY": 0.71,
+            "rot": 0,
+            "defaultAfterAnim": false,
+            "childs": [
+                {
+                    "objectName": "SYMBOL_12_TEXTURE",
+                    "startSpriteIndex": 0,
+                    "startAlpha": 1,
+                    "posX": 0,
+                    "posY": 0,
+                    "pivotX": -106.5,
+                    "pivotY": 115,
+                    "scaleX": 0.85,
+                    "scaleY": 0.85,
+                    "rot": 0,
+                    "defaultAfterAnim": false,
+                    "childs": []
+                },
+                {
+                    "objectName": "blastImg",
+                    "startSpriteIndex": 0,
+                    "startAlpha": 0,
+                    "posX": 0,
+                    "posY": 0,
+                    "pivotX": -10,
+                    "pivotY": -5,
+                    "scaleX": 1.1,
+                    "scaleY": 1.1,
+                    "rot": 0,
+                    "defaultAfterAnim": true,
+                    "childs": []
+                }
+            ]
+        }
+    ],
+    "animations":[
+        {
+            "animationName": "win",
+            "animationTime": 1.8,
+            "subAnims":[
+                {
+                    "animationName": "win",
+                    "animationTime": 0.7,
+                    "path": [0,0],
+                    "startTime": 0
+                },
+                {
+                    "animationName": "win1",
+                    "animationTime": 1.4,
+                    "path": [0,1],
+                    "startTime": 0.4
+                },
+                {
+                    "animationName": "win",
+                    "animationTime": 0.75,
+                    "path": [0],
+                    "startTime": 0.5
+                }
+            ],
+            "customEvents": [{
+                "time": 1750,
+                "eventType": "CallFunction"
+            }]
+        }
+    ]
+}

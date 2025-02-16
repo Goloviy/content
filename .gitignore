@@ -1,0 +1,75 @@
+# Compiled output
+dist/
+tmp/
+out-tsc/
+bazel-out/
+.cache/
+.parcel-cache
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular
+.angular/
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+lerna-debug.log*
+
+# Coverage
+coverage/
+.nyc_output
+
+# Build artifacts
+build/
+dist/
+lib/
+esm/
+fesm/
+bundles/
+documents/
+
+# Test files
+test/
+jest.config.js
+jest.setup.js
+jest.transform.js
+
+# Miscellaneous
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.cache/
+parcel-cache/
+.yarn
+/.yarn/install-state.gz
